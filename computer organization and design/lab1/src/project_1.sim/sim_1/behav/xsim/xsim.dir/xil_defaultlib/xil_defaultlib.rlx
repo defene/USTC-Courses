@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/86138/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/alu32.v,1648034723,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_alu.v,,alu32,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/alu6.v,1647937296,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/alu32.v,,alu6,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/edge.v,1647918383,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_32.v,,edge1,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/fls.v,1647942764,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_fls.v,,fls,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_32.v,1647943189,verilog,,,,tb_32,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_alu.v,1647943981,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/edge.v,,tb_alu,,,,,,,,
+C:/Users/86138/project_1/project_1.srcs/sources_1/new/tb_fls.v,1647833390,verilog,,C:/Users/86138/project_1/project_1.srcs/sources_1/new/alu6.v,,tb_fls,,,,,,,,

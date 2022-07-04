@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/86138/project_4/project_4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1653727220,verilog,,C:/Users/86138/project_4/project_4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/86138/project_4/project_4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1653727251,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/ALU_control.v,,dist_mem_gen_1,,,,,,,,
+C:/Users/86138/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sim_1/new/cpu_tb.v,1651889801,verilog,,,,cpu_tb,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sim_1/new/top_tb.v,1651145653,verilog,,,,top_tb,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/ALU_control.v,1653729696,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/alu.v,,ALU_control,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/alu.v,1653450083,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/beq_judge.v,,alu,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/beq_judge.v,1653479249,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/control_unit.v,,beq_judge,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/control_unit.v,1653484884,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/edge1.v,,control_unit,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/edge1.v,1653722698,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/forwarding_unit.v,,edge1,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/forwarding_unit.v,1653448957,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/hazard_detection_unit.v,,forwarding_unit,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/hazard_detection_unit.v,1651052091,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/imm_gen.v,,hazard_detection_unit,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/imm_gen.v,1653553019,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/mul_cpu.v,,imm_gen,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/mul_cpu.v,1653736094,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/register_pile.v,,mul_cpu,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/pdu.v,1651115095,verilog,,C:/Users/86138/project_4/project_4.srcs/sources_1/new/register_pile.v,,pdu,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/register_pile.v,1651114750,verilog,,C:/Users/86138/project_4/project_4.srcs/sim_1/new/cpu_tb.v,,register_pile,,,,,,,,
+C:/Users/86138/project_4/project_4.srcs/sources_1/new/top.v,1650941672,verilog,,C:/Users/86138/project_4/project_4.srcs/sim_1/new/top_tb.v,,top,,,,,,,,

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jul  4 16:46:35 2022
+# Process ID: 25384
+# Current directory: C:/Users/86138/Desktop/computer organization and design/lab4/src/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30372 C:\Users\86138\Desktop\computer organization and design\lab4\src\project_3\project_3.xpr
+# Log file: C:/Users/86138/Desktop/computer organization and design/lab4/src/project_3/vivado.log
+# Journal file: C:/Users/86138/Desktop/computer organization and design/lab4/src/project_3\vivado.jou
+# Running On: LAPTOP-00NBP5KM, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17027 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86138/Desktop/computer organization and design/lab4/src/project_3/project_3.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/86138/project_2/project_2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1648694577,verilog,,C:/Users/86138/project_2/project_2.srcs/sim_1/new/blk.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/86138/project_2/project_2.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1648694295,verilog,,C:/Users/86138/project_2/project_2.srcs/sim_1/new/dis.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/86138/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sim_1/new/blk.v,1648693147,verilog,,,,blk,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sim_1/new/dis.v,1649659703,verilog,,,,dis,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sim_1/new/tb_fifo.v,1648138933,verilog,,,,tb_fifo,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sim_1/new/tb_rge.v,1648691967,verilog,,,,tb_rge,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sources_1/new/edge1.v,1648047748,verilog,,C:/Users/86138/project_2/project_2.srcs/sources_1/new/fifo.v,,edge1,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sources_1/new/fifo.v,1648630515,verilog,,C:/Users/86138/project_2/project_2.srcs/sources_1/new/rge8.v,,fifo,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sources_1/new/rge.v,1648691568,verilog,,C:/Users/86138/project_2/project_2.srcs/sim_1/new/tb_rge.v,,rge,,,,,,,,
+C:/Users/86138/project_2/project_2.srcs/sources_1/new/rge8.v,1648121701,verilog,,C:/Users/86138/project_2/project_2.srcs/sim_1/new/tb_fifo.v,,rge8,,,,,,,,

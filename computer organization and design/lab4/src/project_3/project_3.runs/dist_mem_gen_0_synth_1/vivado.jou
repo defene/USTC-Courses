@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 16:11:46 2022
+# Process ID: 1688
+# Current directory: C:/Users/86138/project_3/project_3.runs/dist_mem_gen_0_synth_1
+# Command line: vivado.exe -log dist_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
+# Log file: C:/Users/86138/project_3/project_3.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.vds
+# Journal file: C:/Users/86138/project_3/project_3.runs/dist_mem_gen_0_synth_1\vivado.jou
+# Running On: LAPTOP-00NBP5KM, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17027 MB
+#-----------------------------------------------------------
+source dist_mem_gen_0.tcl -notrace

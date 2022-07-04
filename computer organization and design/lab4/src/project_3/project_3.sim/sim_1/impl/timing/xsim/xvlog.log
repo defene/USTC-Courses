@@ -1,0 +1,101 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.sim/sim_1/impl/timing/xsim/cpu_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM128X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD1
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD10
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD11
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD12
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD13
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD14
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD15
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD16
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD17
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD18
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD19
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD2
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD20
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD21
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD22
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD23
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD24
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD25
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD26
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD27
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD28
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD29
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD3
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD30
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD31
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD32
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD33
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD34
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD35
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD36
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD37
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD38
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD39
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD4
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD40
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD41
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD42
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD43
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD44
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD45
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD46
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD47
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD48
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD49
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD5
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD50
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD51
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD52
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD53
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD54
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD55
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD56
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD57
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD58
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD59
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD6
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD60
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD61
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD62
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD63
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD7
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD8
+INFO: [VRFC 10-311] analyzing module RAM128X1D_HD9
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-311] analyzing module alu32
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1
+INFO: [VRFC 10-311] analyzing module pdu_1cycle
+INFO: [VRFC 10-311] analyzing module rge32
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dpram
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ALU_control' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu32
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'alu32' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'cpu' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+WARNING: [VRFC 10-8497] literal value 'hfffff truncated to fit in 19 bits [C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v:48]
+WARNING: [VRFC 10-8497] literal value 'hfff truncated to fit in 11 bits [C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v:69]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rge32
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'rge32' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_3/project_3.srcs/sim_1/new/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb
+INFO: [VRFC 10-2458] undeclared symbol rf_data, assumed default net type wire [C:/Users/86138/project_3/project_3.srcs/sim_1/new/cpu_tb.v:62]

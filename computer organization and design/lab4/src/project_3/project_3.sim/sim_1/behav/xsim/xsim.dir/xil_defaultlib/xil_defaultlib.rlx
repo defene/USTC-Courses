@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/86138/project_3/project_3.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1649492355,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_0_2/sim/dist_mem_gen_0.v,1651122493,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1651122552,verilog,,C:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_0_2/sim/dist_mem_gen_0.v,,dist_mem_gen_1,,,,,,,,
+C:/Users/86138/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sim_1/new/cpu_tb.v,1650347598,verilog,,,,cpu_tb,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v,1650853940,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v,,ALU_control,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v,1649668157,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/control.v,,alu32,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/control.v,1650854045,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v,,control_unit,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v,1649853543,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v,,cpu,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v,1650532926,verilog,,C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v,,imm_gen,,,,,,,,
+C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v,1649661557,verilog,,C:/Users/86138/project_3/project_3.srcs/sim_1/new/cpu_tb.v,,rge32,,,,,,,,

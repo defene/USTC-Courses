@@ -1,0 +1,350 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 16:15:07 2022
+# Process ID: 1908
+# Current directory: C:/Users/86138/project_3/project_3.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/86138/project_3/project_3.runs/synth_1/top.vds
+# Journal file: C:/Users/86138/project_3/project_3.runs/synth_1\vivado.jou
+# Running On: LAPTOP-00NBP5KM, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17027 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1255.387 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental C:/Users/86138/project_3/project_3.srcs/utils_1/imports/synth_1/pdu_1cycle.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/86138/project_3/project_3.srcs/utils_1/imports/synth_1/pdu_1cycle.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5904
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1255.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pdu_1cycle' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/pdu_fls.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/86138/project_3/project_3.srcs/sources_1/new/pdu_fls.v:150]
+INFO: [Synth 8-6155] done synthesizing module 'pdu_1cycle' (1#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/pdu_fls.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU_control' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:59]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_control' (2#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rge32' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:23]
+WARNING: [Synth 8-6090] variable 'regfile' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:44]
+WARNING: [Synth 8-7137] Register regfile_reg[0] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[1] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[2] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[3] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[4] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[5] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[6] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[7] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[8] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[9] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[10] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[11] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[12] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[13] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[14] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[15] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[16] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[17] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[18] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[19] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[20] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[21] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[22] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[23] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[24] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[25] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[26] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[27] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[28] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[29] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[30] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+WARNING: [Synth 8-7137] Register regfile_reg[31] in module rge32 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'rge32' (3#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/rge.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu32' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu32' (4#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/alu32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (5#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6157] synthesizing module 'imm_gen' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'imm_gen' (6#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/Users/86138/project_3/project_3.runs/synth_1/.Xil/Vivado-1908-LAPTOP-00NBP5KM/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (7#1) [C:/Users/86138/project_3/project_3.runs/synth_1/.Xil/Vivado-1908-LAPTOP-00NBP5KM/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_1' [C:/Users/86138/project_3/project_3.runs/synth_1/.Xil/Vivado-1908-LAPTOP-00NBP5KM/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_1' (8#1) [C:/Users/86138/project_3/project_3.runs/synth_1/.Xil/Vivado-1908-LAPTOP-00NBP5KM/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (9#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (10#1) [C:/Users/86138/project_3/project_3.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1255.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1255.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1255.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1255.387 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1/dist_mem_gen_1_in_context.xdc] for cell 'test/instruction'
+Finished Parsing XDC File [c:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1/dist_mem_gen_1_in_context.xdc] for cell 'test/instruction'
+Parsing XDC File [c:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_0_2/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'test/data'
+Finished Parsing XDC File [c:/Users/86138/project_3/project_3.gen/sources_1/ip/dist_mem_gen_0_2/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'test/data'
+Parsing XDC File [C:/Users/86138/project_3/project_3.srcs/constrs_1/new/pdu.xdc]
+Finished Parsing XDC File [C:/Users/86138/project_3/project_3.srcs/constrs_1/new/pdu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/86138/project_3/project_3.srcs/constrs_1/new/pdu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1271.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1271.102 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for test/instruction. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for test/data. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'ALUcode_reg_reg' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/ALU_control.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'wd_reg' [C:/Users/86138/project_3/project_3.srcs/sources_1/new/cpu.v:43]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 35    
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 46    
+	   6 Input   32 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 39    
+	   4 Input    1 Bit        Muxes := 5     
+	   6 Input    1 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[31]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[30]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[29]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[28]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[27]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[26]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (test/wd_reg[0]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:10 . Memory (MB): peak = 1271.102 ; gain = 15.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 1297.480 ; gain = 42.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:20 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:20 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:01:20 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:20 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dist_mem_gen_0 |         1|
+|2     |dist_mem_gen_1 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |dist_mem_gen |     2|
+|3     |BUFG         |     2|
+|4     |CARRY4       |    49|
+|5     |LUT1         |    31|
+|6     |LUT2         |   119|
+|7     |LUT3         |    84|
+|8     |LUT4         |   214|
+|9     |LUT5         |   539|
+|10    |LUT6         |  1342|
+|11    |MUXF7        |   388|
+|12    |FDCE         |  1087|
+|13    |FDPE         |    30|
+|14    |FDRE         |    14|
+|15    |LDP          |     3|
+|16    |IBUF         |    10|
+|17    |OBUF         |    15|
++------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 1311.273 ; gain = 55.887
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:05 ; elapsed = 00:01:18 . Memory (MB): peak = 1311.273 ; gain = 40.172
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 1311.273 ; gain = 55.887
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1323.324 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 440 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1327.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LDP => LDPE: 3 instances
+
+Synth Design complete, checksum: ac38731b
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 70 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:26 ; elapsed = 00:01:35 . Memory (MB): peak = 1327.012 ; gain = 71.625
+INFO: [Common 17-1381] The checkpoint 'C:/Users/86138/project_3/project_3.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 28 16:16:55 2022...

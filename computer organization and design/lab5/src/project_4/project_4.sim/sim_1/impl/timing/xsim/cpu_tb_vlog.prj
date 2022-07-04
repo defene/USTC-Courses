@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"cpu_tb_time_impl.v" \
+"../../../../../project_4.srcs/sources_1/new/ALU_control.v" \
+"../../../../../project_4.srcs/sources_1/new/alu.v" \
+"../../../../../project_4.srcs/sources_1/new/control_unit.v" \
+"../../../../../project_4.srcs/sources_1/new/forwarding_unit.v" \
+"../../../../../project_4.srcs/sources_1/new/hazard_detection_unit.v" \
+"../../../../../project_4.srcs/sources_1/new/imm_gen.v" \
+"../../../../../project_4.srcs/sources_1/new/mul_cpu.v" \
+"../../../../../project_4.srcs/sources_1/new/register_pile.v" \
+"../../../../../project_4.srcs/sim_1/new/cpu_tb.v" \
+
+# Do not sort compile order
+nosort

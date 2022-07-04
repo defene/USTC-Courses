@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/ALU_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/beq_judge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module beq_judge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/edge1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/hazard_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+WARNING: [VRFC 10-8497] literal value 'hfffff truncated to fit in 19 bits [C:/Users/86138/project_4/project_4.srcs/sources_1/new/imm_gen.v:45]
+WARNING: [VRFC 10-8497] literal value 'hfff truncated to fit in 11 bits [C:/Users/86138/project_4/project_4.srcs/sources_1/new/imm_gen.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/mul_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sources_1/new/register_pile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_pile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/project_4/project_4.srcs/sim_1/new/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb

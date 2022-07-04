@@ -1,0 +1,95 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot cpu_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'stallb' is not connected on this instance [C:/Users/86138/project_4/project_4.srcs/sources_1/new/mul_cpu.v:351]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU_control
+Compiling module xil_defaultlib.register_pile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.hazard_detection_unit
+Compiling module xil_defaultlib.imm_gen
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.RAMD64E
+Compiling module simprims_ver.MUXF7
+Compiling module xil_defaultlib.RAM128X1D_UNIQ_BASE_
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.RAM128X1D_HD190
+Compiling module xil_defaultlib.RAM128X1D_HD191
+Compiling module xil_defaultlib.RAM128X1D_HD192
+Compiling module xil_defaultlib.RAM128X1D_HD193
+Compiling module xil_defaultlib.RAM128X1D_HD194
+Compiling module xil_defaultlib.RAM128X1D_HD195
+Compiling module xil_defaultlib.RAM128X1D_HD196
+Compiling module xil_defaultlib.RAM128X1D_HD197
+Compiling module xil_defaultlib.RAM128X1D_HD198
+Compiling module xil_defaultlib.RAM128X1D_HD199
+Compiling module xil_defaultlib.RAM128X1D_HD200
+Compiling module xil_defaultlib.RAM128X1D_HD201
+Compiling module xil_defaultlib.RAM128X1D_HD202
+Compiling module xil_defaultlib.RAM128X1D_HD203
+Compiling module xil_defaultlib.RAM128X1D_HD204
+Compiling module xil_defaultlib.RAM128X1D_HD205
+Compiling module xil_defaultlib.RAM128X1D_HD206
+Compiling module xil_defaultlib.RAM128X1D_HD207
+Compiling module xil_defaultlib.RAM128X1D_HD208
+Compiling module xil_defaultlib.RAM128X1D_HD209
+Compiling module xil_defaultlib.RAM128X1D_HD210
+Compiling module xil_defaultlib.RAM128X1D_HD211
+Compiling module xil_defaultlib.RAM128X1D_HD212
+Compiling module xil_defaultlib.RAM128X1D_HD213
+Compiling module xil_defaultlib.RAM128X1D_HD214
+Compiling module xil_defaultlib.RAM128X1D_HD215
+Compiling module xil_defaultlib.RAM128X1D_HD216
+Compiling module xil_defaultlib.RAM128X1D_HD217
+Compiling module xil_defaultlib.RAM128X1D_HD218
+Compiling module xil_defaultlib.RAM128X1D_HD219
+Compiling module xil_defaultlib.RAM128X1D_HD220
+Compiling module xil_defaultlib.RAM128X1D_HD221
+Compiling module xil_defaultlib.RAM128X1D_HD222
+Compiling module xil_defaultlib.RAM128X1D_HD223
+Compiling module xil_defaultlib.RAM128X1D_HD224
+Compiling module xil_defaultlib.RAM128X1D_HD225
+Compiling module xil_defaultlib.RAM128X1D_HD226
+Compiling module xil_defaultlib.RAM128X1D_HD227
+Compiling module xil_defaultlib.RAM128X1D_HD228
+Compiling module xil_defaultlib.RAM128X1D_HD229
+Compiling module xil_defaultlib.RAM128X1D_HD230
+Compiling module xil_defaultlib.RAM128X1D_HD231
+Compiling module xil_defaultlib.RAM128X1D_HD232
+Compiling module xil_defaultlib.RAM128X1D_HD233
+Compiling module xil_defaultlib.RAM128X1D_HD234
+Compiling module xil_defaultlib.RAM128X1D_HD235
+Compiling module xil_defaultlib.RAM128X1D_HD236
+Compiling module xil_defaultlib.RAM128X1D_HD237
+Compiling module xil_defaultlib.RAM128X1D_HD238
+Compiling module xil_defaultlib.RAM128X1D_HD239
+Compiling module xil_defaultlib.RAM128X1D_HD240
+Compiling module xil_defaultlib.RAM128X1D_HD241
+Compiling module xil_defaultlib.RAM128X1D_HD242
+Compiling module xil_defaultlib.RAM128X1D_HD243
+Compiling module xil_defaultlib.RAM128X1D_HD244
+Compiling module xil_defaultlib.RAM128X1D_HD245
+Compiling module xil_defaultlib.RAM128X1D_HD246
+Compiling module xil_defaultlib.RAM128X1D_HD247
+Compiling module xil_defaultlib.RAM128X1D_HD248
+Compiling module xil_defaultlib.RAM128X1D_HD249
+Compiling module xil_defaultlib.RAM128X1D_HD250
+Compiling module xil_defaultlib.RAM128X1D_HD251
+Compiling module xil_defaultlib.RAM128X1D_HD252
+Compiling module xil_defaultlib.dist_mem_gen_1
+Compiling module simprims_ver.LUT6
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.mul_cpu
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_time_impl
