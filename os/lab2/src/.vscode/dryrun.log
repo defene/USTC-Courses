@@ -1,0 +1,26 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cyh/os/Lab2/src'
+ 
+mkdir -p output/myOS/
+gcc -m32 --pipe -Wall -fasm -g -O1 -fno-stack-protector	 -c -o output/myOS/start32.o myOS/start32.S
+mkdir -p output/myOS/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/osStart.o myOS/osStart.c
+ 
+mkdir -p output/myOS/dev/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/dev/uart.o myOS/dev/uart.c
+mkdir -p output/myOS/dev/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/dev/vga.o myOS/dev/vga.c
+mkdir -p output/myOS/i386/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/i386/io.o myOS/i386/io.c
+mkdir -p output/myOS/printk/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/printk/myPrintk.o myOS/printk/myPrintk.c
+mkdir -p output/myOS/lib/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/myOS/lib/vsprintf.o myOS/lib/vsprintf.c
+ 
+mkdir -p output/userApp/
+gcc -I myOS/include -I myOS -m32 -fno-stack-protector -fno-builtin -g -c -o output/userApp/main.o userApp/main.c
+mkdir -p output/multibootheader/
+gcc -m32 --pipe -Wall -fasm -g -O1 -fno-stack-protector	 -c -o output/multibootheader/multibootHeader.o multibootheader/multibootHeader.S
+ld -n -T myOS/myOS.ld output/multibootheader/multibootHeader.o output/myOS/start32.o output/myOS/osStart.o output/myOS/dev/uart.o output/myOS/dev/vga.o output/myOS/i386/io.o output/myOS/printk/myPrintk.o output/myOS/lib/vsprintf.o output/userApp/main.o -o output/myOS.elf
+make: Leaving directory '/home/cyh/os/Lab2/src'
+ 

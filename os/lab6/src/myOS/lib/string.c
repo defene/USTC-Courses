@@ -1,0 +1,37 @@
+#include "string.h"
+
+int myStrcmp(const char *str1, const char *str2) {
+    while (*str1 && *str2 && *str1 == *str2) {
+        str1++;
+        str2++;
+    };  
+
+    return *str1 - *str2;
+}
+
+int myStrlen(const char *str) {
+    int len = 0;
+    while (*str++)
+        len++;
+
+    return len;
+}
+
+int myStrnlen(const char *str, int maxlen) {
+    int len = 0;
+    while ((maxlen <0 || len < maxlen) && *str++)
+        len++;
+
+    return len;
+}
+
+int myStrcpy(char *dst, const char *src) {
+    int cnt = 0;
+    while (*src) {
+        *dst++ = *src++;
+        cnt++;
+    }
+    *dst = 0;
+
+    return cnt;
+}

@@ -1,0 +1,792 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon May 23 20:38:38 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/cyh/os/lab4_v1——1
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"7e2798734d22b5386c06852fa8a7c560.zh-cn","_translationsConfigFile":"/home/cyh/.config/Code/clp/7e2798734d22b5386c06852fa8a7c560.zh-cn/tcf.json","_cacheRoot":"/home/cyh/.config/Code/clp/7e2798734d22b5386c06852fa8a7c560.zh-cn","_resolvedLanguagePackCoreLocation":"/home/cyh/.config/Code/clp/7e2798734d22b5386c06852fa8a7c560.zh-cn/379476f0e13988d90fab105c5c19e7abc8b1dea8","_corruptedFile":"/home/cyh/.config/Code/clp/7e2798734d22b5386c06852fa8a7c560.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:39868
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from '/home/cyh/os/lab4_v1——1/userApp/Makefile', line 1)
+MAKEFILE_LIST :=  Makefile /home/cyh/os/lab4_v1——1/myOS/Makefile /home/cyh/os/lab4_v1——1/myOS/dev/Makefile /home/cyh/os/lab4_v1——1/myOS/i386/Makefile /home/cyh/os/lab4_v1——1/myOS/printk/Makefile /home/cyh/os/lab4_v1——1/myOS/lib/Makefile /home/cyh/os/lab4_v1——1/myOS/kernel/Makefile /home/cyh/os/lab4_v1——1/myOS/kernel/mem/Makefile /home/cyh/os/lab4_v1——1/userApp/Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = cyh
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 1268
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/cyh
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/cyh/.local/bin:/home/cyh/bin:/home/cyh/anaconda3/bin:/home/cyh/.local/bin:/home/cyh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/lib/Makefile', line 1)
+LIB_OBJS = output/myOS/lib/string.o
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/cyh-ROG-Strix-G732LWS-G732LWS:@/tmp/.ICE-unix/1559,unix/cyh-ROG-Strix-G732LWS-G732LWS:/tmp/.ICE-unix/1559
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=81604646-013e-413f-8d57-431a6bafab2c&iid=81604646-013e-413f-8d57-431a6bafab2c&sid=81604646-013e-413f-8d57-431a6bafab2c","uploadToServer":true}
+# environment
+INVOCATION_ID = 79dbad64011443e4a658eea404e41906
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 5)
+ASM_FLAGS = -m32 --pipe -Wall -fasm -g -O1 -fno-stack-protector	
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2808
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/dev/Makefile', line 1)
+DEV_OBJS = output/myOS/dev/uart.o output/myOS/dev/vga.o output/myOS/dev/i8253.o output/myOS/dev/i8259A.o
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/cyh/os/lab4_v1——1
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1514
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/Makefile', line 7)
+MYOS_OBJS = output/myOS/start32.o output/myOS/osStart.o ${DEV_OBJS} ${I386_OBJS} ${PRINTK_OBJS} ${LIB_OBJS} ${KERNEL_OBJS}
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/cyh
+# environment
+LD_LIBRARY_PATH = :/usr/local/cuda-11.4/lib64
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/cyh/.config/Code/CachedData/379476f0e13988d90fab105c5c19e7abc8b1dea8
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/printk/Makefile', line 1)
+PRINTK_OBJS = output/myOS/printk/myPrintk.o
+# environment
+LOGNAME = cyh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 15)
+OS_OBJS = ${MYOS_OBJS} ${USER_APP_OBJS}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-16367e00-1e89-440c-bee4-ecb2fd48123f.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = cyh
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/kernel/mem/Makefile', line 1)
+MEM_OBJS = output/myOS/kernel/mem/pMemInit.o output/myOS/kernel/mem/dPartition.o output/myOS/kernel/mem/eFPartition.o output/myOS/kernel/mem/malloc.o
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh:en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-40045b5f-1.59.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/cyh/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = zh_CN.UTF-8
+# makefile (from 'Makefile', line 2)
+SRC_RT = $(shell pwd)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+CUDA_HOME = :/usr/local/cuda-11.4
+# makefile (from 'Makefile', line 4)
+CROSS_COMPILE = 
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/i386/Makefile', line 1)
+I386_OBJS = output/myOS/i386/io.o output/myOS/i386/irq.o output/myOS/i386/irqs.o
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# makefile (from '/home/cyh/os/lab4_v1——1/userApp/Makefile', line 1)
+USER_APP_OBJS = output/userApp/main.o output/userApp/shell.o output/userApp/memTestCase.o
+# makefile (from 'Makefile', line 11)
+MULTI_BOOT_HEADER = output/multibootheader/multibootHeader.o
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# makefile (from 'Makefile', line 6)
+C_FLAGS = -m32 -fno-stack-protector -fno-builtin-free -g
+# environment
+LC_ALL = C
+# makefile (from '/home/cyh/os/lab4_v1——1/myOS/kernel/Makefile', line 3)
+KERNEL_OBJS = output/myOS/kernel/tick.o output/myOS/kernel/wallClock.o $(MEM_OBJS)
+# environment
+QT4_IM_MODULE = fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2808
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=34/220=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2056, inode 8388729): 10 files, no impossibilities.
+# myOS/kernel/mem (device 2056, inode 8388822): 7 files, no impossibilities.
+# multibootheader (device 2056, inode 8388790): 2 files, no impossibilities so far.
+# myOS/lib (device 2056, inode 8388830): 4 files, no impossibilities.
+# myOS/kernel (device 2056, inode 8388819): 7 files, no impossibilities.
+# myOS/dev (device 2056, inode 8388794): 7 files, no impossibilities.
+# userApp (device 2056, inode 8388876): 8 files, no impossibilities.
+# myOS/printk (device 2056, inode 8388836): 6 files, no impossibilities.
+# myOS (device 2056, inode 8388792): 14 files, no impossibilities.
+# myOS/i386 (device 2056, inode 8388800): 6 files, no impossibilities.
+
+# 71 files, no impossibilities in 10 directories.
+
+# Implicit Rules
+
+output/%.o: %.S
+#  recipe to execute (from 'Makefile', line 21):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${ASM_FLAGS} -c -o $@ $<
+
+output/%.o: %.c
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+myOS/osStart.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-24 10:27:22
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/dev/vga.o: myOS/dev/vga.c
+ 
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/dev/vga'
+#  Last modified 2022-05-22 17:21:41.549029694
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/i386/irq.S:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/i386/io.o: myOS/i386/io.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/i386/io'
+#  Last modified 2022-05-22 17:21:41.589050082
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+output/myOS/dev/i8253.o: myOS/dev/i8253.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/dev/i8253'
+#  Last modified 2022-05-22 17:21:41.565037849
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+all: output/myOS.elf
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+userApp/shell.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 17:21:34.589440931
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output/myOS/kernel/mem/pMemInit.o: myOS/kernel/mem/pMemInit.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/mem/pMemInit'
+#  Last modified 2022-05-22 17:21:41.689101052
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+output/myOS.elf: output/myOS/start32.o output/myOS/osStart.o output/myOS/dev/uart.o output/myOS/dev/vga.o output/myOS/dev/i8253.o output/myOS/dev/i8259A.o output/myOS/i386/io.o output/myOS/i386/irq.o output/myOS/i386/irqs.o output/myOS/printk/myPrintk.o output/myOS/lib/string.o output/myOS/kernel/tick.o output/myOS/kernel/wallClock.o output/myOS/kernel/mem/pMemInit.o output/myOS/kernel/mem/dPartition.o output/myOS/kernel/mem/eFPartition.o output/myOS/kernel/mem/malloc.o output/userApp/main.o output/userApp/shell.o output/userApp/memTestCase.o output/multibootheader/multibootHeader.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-22 17:21:41.809162216
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	${CROSS_COMPILE}ld -n -T myOS/myOS.ld ${MULTI_BOOT_HEADER} ${OS_OBJS} -o output/myOS.elf
+
+# Not a target:
+myOS/i386/irqs.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:00:20
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+myOS/start32.S:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:51:12
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+myOS/kernel/mem/malloc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 16:55:10.793075901
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/dev/i8259A.o: myOS/dev/i8259A.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/dev/i8259A'
+#  Last modified 2022-05-22 17:21:41.577043966
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 13:35:44
+#  File has been updated.
+#  Successfully updated.
+
+output/multibootheader/multibootHeader.o: multibootheader/multibootHeader.S
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'multibootheader/multibootHeader'
+#  Last modified 2022-05-22 17:21:41.805160178
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${ASM_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/kernel/tick.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:43:06
+#  File has been updated.
+#  Successfully updated.
+
+output/userApp/memTestCase.o: userApp/memTestCase.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'userApp/memTestCase'
+#  Last modified 2022-05-22 17:21:41.801158138
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+output/userApp/main.o: userApp/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'userApp/main'
+#  Last modified 2022-05-22 17:21:41.753133673
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2020-03-23 17:53:10
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/kernel/mem/dPartition.o: myOS/kernel/mem/dPartition.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/mem/dPartition'
+#  Last modified 2022-05-22 17:21:41.709111247
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/lib/string.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:21:43.721174329
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/kernel/mem/eFPartition.o: myOS/kernel/mem/eFPartition.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/mem/eFPartition'
+ 
+#  Last modified 2022-05-22 17:21:41.725119402
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+ 
+
+output/myOS/osStart.o: myOS/osStart.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/osStart'
+#  Last modified 2022-05-22 17:21:41.472990957
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/printk/myPrintk.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:23:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+userApp/memTestCase.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 13:37:16.230741704
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+userApp/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:25:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/dev/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/kernel/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-22 07:31:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/printk/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/i386/irqs.o: myOS/i386/irqs.c
+ 
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/i386/irqs'
+#  Last modified 2022-05-22 17:21:41.605058237
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/kernel/wallClock.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:09:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+myOS/dev/uart.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:30:18
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/start32.o: myOS/start32.S
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/start32'
+#  Last modified 2022-05-22 17:21:41.460984841
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${ASM_FLAGS} -c -o $@ $<
+
+output/myOS/kernel/mem/malloc.o: myOS/kernel/mem/malloc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/mem/malloc'
+#  Last modified 2022-05-22 17:21:41.737125517
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+ 
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/dev/vga.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:30:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+myOS/i386/io.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+ 
+
+output/myOS/i386/irq.o: myOS/i386/irq.S
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/i386/irq'
+#  Last modified 2022-05-22 17:21:41.593052121
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${ASM_FLAGS} -c -o $@ $<
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	rm -rf output
+
+# Not a target:
+myOS/dev/i8253.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:30:42
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/kernel/tick.o: myOS/kernel/tick.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/tick'
+#  Last modified 2022-05-22 17:21:41.66108678
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/lib/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/lib/string.o: myOS/lib/string.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/lib/string'
+ 
+#  Last modified 2022-05-22 17:21:41.649080665
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/kernel/mem/pMemInit.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 16:52:07.19653263
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/printk/myPrintk.o: myOS/printk/myPrintk.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/printk/myPrintk'
+#  Last modified 2022-05-22 17:21:41.63307251
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+multibootheader/multibootHeader.S:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+myOS/dev/i8259A.c:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 12:30:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/i386/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-03-23 17:47:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/myOS/kernel/mem/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-23 13:33:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+myOS/kernel/mem/dPartition.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-05-22 15:10:35.633853905
+#  File has been updated.
+#  Successfully updated.
+
+output/myOS/kernel/wallClock.o: myOS/kernel/wallClock.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/kernel/wallClock'
+#  Last modified 2022-05-22 17:21:41.677094936
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# Not a target:
+myOS/kernel/mem/eFPartition.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 10:43:05.828540372
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/cyh/os/lab4_v1——1/userApp/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-22 21:32:14
+#  File has been updated.
+#  Successfully updated.
+
+output/userApp/shell.o: userApp/shell.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'userApp/shell'
+#  Last modified 2022-05-22 17:21:41.773143867
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+output/myOS/dev/uart.o: myOS/dev/uart.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'myOS/dev/uart'
+#  Last modified 2022-05-22 17:21:41.488999112
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@mkdir -p $(dir $@)
+	@${CROSS_COMPILE}gcc ${C_FLAGS} -c -o $@ $<
+
+# files hash-table stats:
+# Load=57/1024=6%, Rehash=0, Collisions=6/181=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 150 / storage = 2679 B / avg = 17 B
+# current buf: size = 8162 B / used = 2679 B / count = 150 / avg = 17 B
+
+# strcache performance: lookups = 221 / hit rate = 32%
+# hash-table stats:
+ 
+# Load=150/8192=2%, Rehash=0, Collisions=12/221=5%
+# Finished Make data base on Mon May 23 20:38:38 2022
+
+ 
